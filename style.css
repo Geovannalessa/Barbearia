@@ -1,0 +1,11 @@
+/* Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho. */
+body{
+    background-color: #CCCCCC;
+}
+p{
+    text-align: center;
+    background: #CCCCCC;
+}
+em strong{
+    color: red;
+}
