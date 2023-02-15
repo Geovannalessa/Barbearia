@@ -31,6 +31,13 @@ CSS:
     
     Como ajustar o espaçamento interno do elemento, através da propriedade padding
     Como ajustar o espaçamento externo do elemento, através da propriedade margin
+    
+    O comportamento de uma tag ocupar a largura inteira da página é chamado “block”. Ele bloqueia o conteúdo daquela linha. Todos os itens (li) da nossa linha têm o comportamento block. 
+    Uma imagem não bloqueia o conteúdo, ela deixa que existam outros na lateral, e esse tipo de conteúdo é considerado inline.
+    A diferença entre eles é que mesmo que eu diminua o tamanho, diminua a largura de um elemento block, ele vai sempre ocupar aquela linha, mesmo preenchendo só metade.
+    Um elemento inline não me deixa alterar, por exemplo, o espaçamento externo e interno dele.
+    Mas existe uma terceira característica, quando o elemento possui as duas condições. Ele é inline e block ao mesmo tempo. Ou seja, ele bloqueia uma largura, mas essa largura é fixa. Sou eu que dou o tamanho. E ele me deixa também mexer na largura e nos espaçamentos interno e externo.
+    Ao fazer o comando de inline-block, os elementos são alinhados pela linha de baixo e queremos sejam alinhados pela linha de cima.Para isso, só adicionar a tag “vertical-align: top” (Faz com que os elementos sejam alinhados verticalmente para cima (como se fosse um align-self) ).
     */
 
 No time do Front-end:
