@@ -2,6 +2,11 @@ notas de estudo/ revisão:
 HTML:
 <!-- A tag DOCTYPE serve para informar ao navegador qual versão do HTML estamos usando. -->
     <!-- A tag <html>, que marca o conteúdo a ser renderizado no navegador -->
+    A tag <!DOCTYPE> serve para informarmos para o navegador qual a versão do HTML estamos usando.
+    A tag <html> serve para informarmos para o navegador onde começa e termina o nosso código.
+    A tag <head> serve para informarmos para o navegador que informações ele deve ler. E A tag <body> serve para informarmos ao navegador quais informações ele deve exibir.
+
+    sempre criar um h1 para colocar o titulo da página, mesmo se ele for uma logo.
     <!-- Se algum usuário que não entende português estiver lendo nossa página, o navegador vai oferecer a opção de traduzir. -->
     <!-- O nome da tag é meta, ela passa informações para o navegador. -->
     <!-- por que é importante utilizar o charset="UTF-8"? É preciso apontar para o navegador que estamos usando um dicionário que tenha acentos e cedilha, sinais gráficos comuns na língua portuguesa. -->
@@ -11,6 +16,8 @@ HTML:
     <!-- Na estrutura correta do HTML, inserimos as informações que queremos passar para o navegador no head e as tags de conteúdo no body. -->
     <!-- CSS, que em uma tradução seria folha de estilo em cascata. Quando vamos em um elemento anterior, ele reflete para todos os elementos que estão abaixo. -->
     <!-- Tamanho padrao da font do navegador é 16 pixels.  -->
+
+    É errado adicionar as palavras todas em maisculo no html, por isso exite uma tag chamada text-transform que faz alterações com o tipo da palavra (maiusculi,minusculo)
 
 CSS:
     /* Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho. */
@@ -38,7 +45,17 @@ CSS:
     Um elemento inline não me deixa alterar, por exemplo, o espaçamento externo e interno dele.
     Mas existe uma terceira característica, quando o elemento possui as duas condições. Ele é inline e block ao mesmo tempo. Ou seja, ele bloqueia uma largura, mas essa largura é fixa. Sou eu que dou o tamanho. E ele me deixa também mexer na largura e nos espaçamentos interno e externo.
     Ao fazer o comando de inline-block, os elementos são alinhados pela linha de baixo e queremos sejam alinhados pela linha de cima.Para isso, só adicionar a tag “vertical-align: top” (Faz com que os elementos sejam alinhados verticalmente para cima (como se fosse um align-self) ).
+    
+    Para deixar uma lista na horizontal basta usar o display inline. E usar um espaçamento com margin
+    position static = padrão
+    position relative = possivel alterar sua posição (com top, bottom, left, right) 
+    position absolute = faz que o elemente seja "independente" e ele pode sai de ordem de onde ele permanecia, e foi para frente, e onde ele estava foi para atrás.
+    info: quando a tag não permacer na ordem que foi inserido na html, é recomendado utilizar a tag absolute.
+    !quando se utiliza o absolute, lembra que ele nn vai respeitar nada de seu pais como o pading e a margin, 
+    por isso que seu pai precisa ser tranquilo com seu filho, que seja relativo, dai o filho vai obdecer as medidas do pai!
+    
     */
+
 
 No time do Front-end:
    1. Alguém responsável pela usabilidade do site.(A usabilidade é responsável por responder como vai entregar aquelas informações, a forma.)
