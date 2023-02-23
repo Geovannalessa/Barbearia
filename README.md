@@ -6,6 +6,8 @@ HTML:
     A tag <html> serve para informarmos para o navegador onde começa e termina o nosso código.
     A tag <head> serve para informarmos para o navegador que informações ele deve ler. E A tag <body> serve para informarmos ao navegador quais informações ele deve exibir.
 
+    tags semânticas fazem com que o navegador entenda melhor o nosso conteúdo,
+    
     sempre criar um h1 para colocar o titulo da página, mesmo se ele for uma logo.
     <!-- Se algum usuário que não entende português estiver lendo nossa página, o navegador vai oferecer a opção de traduzir. -->
     <!-- O nome da tag é meta, ela passa informações para o navegador. -->
@@ -61,3 +63,23 @@ No time do Front-end:
    1. Alguém responsável pela usabilidade do site.(A usabilidade é responsável por responder como vai entregar aquelas informações, a forma.)
    2. O time da interface do usuário.( que vai pegar a forma como aquilo vai ser feito e vai dar o visual para aquilo.)
    3.Temos o codificador, aquele desenvolvedor front end. (Que vai pegar o design, a forma como o site foi apresentado com aquele visual e vai transformar em código para web, para um aplicativo ou para algum sistema.)
+
+
+   resumo do que vimos na aula
+   A criar um formulário HTML
+    A tag que o representa é a <form>
+    A tag <input>, para a entrada de dados do usuário
+    A criar uma etiqueta para o input, com a tag <label>
+    A conectar um input com o seu label
+    Colocamos um id para o input e associamos esse id ao atributo for do label
+    Alguns tipos de input, como text e submit
+    Que label possui o display inline e o input possui display inline-block
+
+    O textarea, para entradas de texto de mais de uma linha
+    O input do tipo radio
+    Como agrupar vários input do tipo radio, impedindo que mais de um input seja selecionado
+    O input do tipo checkbox
+    Que podemos criar um input dentro de um label, assim associando-os
+    Mais estilizações para a nossa página
+    Como funciona a hierarquia no CSS
+    O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
