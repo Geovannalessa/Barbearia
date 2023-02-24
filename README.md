@@ -83,3 +83,32 @@ No time do Front-end:
     Mais estilizações para a nossa página
     Como funciona a hierarquia no CSS
     O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
+
+    Alguns tipos de inputs para celular: email, tel, number, password, date, datetime, month e search
+    Como não permitir que um campo não seja preenchido, através do atributo required
+    Como exibir uma sugestão de preenchimento para os campos, através do atributo placeholder
+    Como deixar uma opção marcada por padrão nos nossos input radio e checkbox, através do atributo checked
+    Como estruturar melhor o nosso código com fieldset (
+        A primeira é a divisão, quando temos um campo e um texto, ou vários campos referentes a alguma coisa, não usamos a tag div, usamos a tag fieldset. Ela é referente à configuração de um ou mais campos referentes a um assunto específico.Quando, por exemplo, eu tenho o preenchimento dos dados de um cartão de crédito. Todos os dados referentes àquele cartão podem estar dentro de um fieldset.
+    ) e legend (
+        . E dentro de um fieldset não temos parágrafos, nós temos o título, e o título de um fildset é chamado de legend.
+    )
+    Como adicionar uma alternativa à imagem, descrevendo-a, com o atributo alt
+
+
+    Utilizamos a propriedade transform: scale() para aumentar um elemento proporcionalmente.
+
+    Utilizamos a tag <tr> para marcar uma linha de uma tabela Table row.
+    As tags <thead>, <tbody> e <tfoot> ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico.
+    propriedade colspan=X, onde X é o número de células que você quer agrupar.
+
+Portanto, em uma tabela de 5 colunas, para ter uma célula única na linha, usamos um código assim:
+
+        A criar uma tabela HTML
+        A tag table, que representa a tabela
+        A tag tr, que representa a linha da tabela
+        A tag td, que representa a célula da tabela
+        A tag thead, que representa o cabeçalho da tabela
+        A tag tbody, que representa o corpo da tabela
+        A tag th, que representa a célula do cabeçalho da tabela
+        A tag tfoot, que representa o rodapé da tabela
