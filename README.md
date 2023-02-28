@@ -3,10 +3,10 @@ HTML:
 <!-- A tag DOCTYPE serve para informar ao navegador qual versão do HTML estamos usando. -->
     <!-- A tag <html>, que marca o conteúdo a ser renderizado no navegador -->
     A tag <!DOCTYPE> serve para informarmos para o navegador qual a versão do HTML estamos usando.
-    A tag <html> serve para informarmos para o navegador onde começa e termina o nosso código.
     A tag <head> serve para informarmos para o navegador que informações ele deve ler. E A tag <body> serve para informarmos ao navegador quais informações ele deve exibir.
 
     tags semânticas fazem com que o navegador entenda melhor o nosso conteúdo,
+    A tag <html> serve para informarmos para o navegador onde começa e termina o nosso código.
     
     sempre criar um h1 para colocar o titulo da página, mesmo se ele for uma logo.
     <!-- Se algum usuário que não entende português estiver lendo nossa página, o navegador vai oferecer a opção de traduzir. -->
@@ -20,6 +20,7 @@ HTML:
     <!-- Tamanho padrao da font do navegador é 16 pixels.  -->
 
     É errado adicionar as palavras todas em maisculo no html, por isso exite uma tag chamada text-transform que faz alterações com o tipo da palavra (maiusculi,minusculo)
+    A melhor maneira de centralizarmos o vídeo é criar uma <div> que envolverá todo o <iframe>, isto é, será a mãe desse conteúdo e terá a classe video.
 
 CSS:
     /* Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho. */
@@ -112,3 +113,16 @@ Portanto, em uma tabela de 5 colunas, para ter uma célula única na linha, usam
         A tag tbody, que representa o corpo da tabela
         A tag th, que representa a célula do cabeçalho da tabela
         A tag tfoot, que representa o rodapé da tabela
+
+        A diferença entre <div> e <section> é que no primeiro caso, trata-se apenas de uma divisão visual. Já no caso da <section> teremos uma divisão por conteúdo complexo, semanticamente homogêneo.
+        Só devemos usar <section> quando o bloco for semântico.Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>.
+
+        class e id:  No universo HTML e CSS, ao falarmos de estilo, usamos uma classe, quando falamos de comportamento, usamos o identificador. A força da classe não é tão grande, então ela pode ser sobrescrita e seu estilo alterado, por isso é importante em CSS sempre utilizarmos classes, assim criamos um padrão em nosso código, o que é fundamental.
+
+    Se quisermos que a fonte de titulo-principal seja o dobro da fonte padrão, independe do tamanho dessa fonte padrão, utilizamos a medida em, a media proporcional para pixels. Se quisermos duas vezes o tamanho base (15 pixels), basta escrever 2em.
+        Incluiremos uma margem de 0 0 1em. É sempre interessante inserir um espaçamento que seja proporcional ao tamanho da fonte, o que facilita a leitura do usuário.
+
+         uma forma de posicionar e tratar elementos: o float, em tradução livre "flutuação". Quando utilizamos este recurso,o elemento "descola" da página mas o que seria a sua sombra, continua sendo ocupada virtualmente, isto é, o texto respeita esse espaço ocupado.
+         O float é um recurso que altera completamente a estrutura da página, todos os elementos abaixo do float passam a ser afetados por ele. Podemos criar uma "barreira" que delimitará seu alcance na página.
+         De volta a style.css em titulo-principal, adicionaremos a propriedade clear que "limpa" o float que está posicionado à esquerda.
+         Tanto o float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele
